@@ -11,7 +11,7 @@ etqImagen = ttk.Label(raiz)
 etqImagen.grid()
 etqImagen['image']= imagen
 
-etqCombinada = ttk.Label(raiz, text="EtqCombinada", compound="center")
+etqCombinada = ttk.Label(raiz, text="EtqCombinada",background="sky blue",font=("arial", 14),foreground="purple", compound="center")
 etqCombinada.grid()
 etqCombinada['image']= imagen
 
